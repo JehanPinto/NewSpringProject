@@ -32,7 +32,7 @@ import com.example.newspring_backend.repository.TransactionRepository;
 
 @RestController
 @RequestMapping("/api/transactions")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:3000")
 public class TransactionController {
 
     @Autowired

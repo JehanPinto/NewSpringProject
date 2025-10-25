@@ -25,7 +25,7 @@ import com.example.newspring_backend.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/accounts")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:3000")
 public class AccountController {
 
     @Autowired

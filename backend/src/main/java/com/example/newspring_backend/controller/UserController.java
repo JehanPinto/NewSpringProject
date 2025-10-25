@@ -22,7 +22,7 @@ import com.example.newspring_backend.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://localhost:5173") // Allow React frontend
+@CrossOrigin(origins = "http://localhost:3000") // Allow React frontend
 public class UserController {
 
     @Autowired

@@ -17,7 +17,7 @@ import com.example.newspring_backend.repository.TransactionRepository;
 
 @RestController
 @RequestMapping("/api/reports")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:3000")
 public class ReportsController {
 
     @Autowired
